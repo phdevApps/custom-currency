@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "cutom-currency";
+    src: url(./custom_currency.woff);
+}
+
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.pricing_container{
+    background-color: #ffffffaa;
+    padding: 1rem;
+    border-radius: .4rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px #00000011;
+    margin: .2rem;
+}
+
+.custom_currency {
+    font-family: "cutom-currency" !important;
+}
